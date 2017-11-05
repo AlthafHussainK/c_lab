@@ -1,15 +1,12 @@
 #include<stdio.h>
-main()
+
+int main(void)
 {
-
-int c,nl;
-
-	nl=0;
+  int c,nl = 0;
 	
-	while((c = getchar()) != EOF)
-		if(c == '\n')
-			++nl;
-printf("\n No of Lines %d\n",nl);
-
+  while((c = getchar()) != EOF)
+	if(c == '\n')
+          ++nl;
+  printf("\n No of Lines %d\n",nl);
 }
 
