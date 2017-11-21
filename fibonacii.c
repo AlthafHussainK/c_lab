@@ -27,5 +27,5 @@ int main(void)
         t2 = nextTerm;
         printf("%d, ", nextTerm);
     }
-    return 0;
-    }
+ return 0;
+ }
