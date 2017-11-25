@@ -4,7 +4,7 @@
 int main(void)
 {
   int board[d][d];
-  int n = 15;
+  int n = d*d - 1;
 
   for(int i = 0; i < d; i++)
   {
